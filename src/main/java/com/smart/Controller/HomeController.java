@@ -30,7 +30,7 @@ public class HomeController {
 	public String home(Model m){
 	
 		m.addAttribute("title","Home - Smart Contact Manager");
-	return "home";
+	return "index";
 	}
 	
 	@RequestMapping("/about")
