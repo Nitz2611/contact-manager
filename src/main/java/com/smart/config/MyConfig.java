@@ -9,8 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 
 @SuppressWarnings("deprecation")
 @Configuration
@@ -58,12 +57,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter{
 		.defaultSuccessUrl("/user/index")
 		.and().csrf().disable();
 	}
-	public class WebConfiguration implements WebMvcConfigurer {
-
-		   @Override
-		   public void addViewControllers(ViewControllerRegistry registry) {
-		       registry.addViewController("/").setViewName("forward:/index.html");
-		   }
+	
 	
 }
 	
