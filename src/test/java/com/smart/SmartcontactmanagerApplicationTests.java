@@ -12,3 +12,4 @@ class SmartcontactmanagerApplicationTests {
 	}
 
 }
+// java based spring 
