@@ -13,5 +13,5 @@ public class SmartcontactmanagerApplication {
 	//first we will create entity
 	//connect mysql database
 	//then create controller to send data from backend to frontend
-	//and wow its done though
+	//
 }
