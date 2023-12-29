@@ -14,3 +14,4 @@ class SmartcontactmanagerApplicationTests {
 }
 // java based spring 
 // This is java and spring project which is outdated and nobody use it.
+// Nah bro many people use it
